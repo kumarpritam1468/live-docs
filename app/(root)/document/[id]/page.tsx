@@ -1,10 +1,11 @@
+import CollaborativeRoom from '@/components/ui/CollaborativeRoom'
 import React from 'react'
 
 const Document = () => {
   return (
-    <div>
-      Document
-    </div>
+    <main className=' flex items-center flex-col w-full'>
+      <CollaborativeRoom />
+    </main>
   )
 }
 
